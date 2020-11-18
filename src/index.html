@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+    <title>Estacionamento</title>
+</head>
+
+<body>
+    <h1>ESTACIONAMENTO</h1>
+        <div class="input">
+            <input type="text" id="name" name="name" placeholder="Digite o nome do veiculo">
+            <input type="text" id="licence" name="name" placeholder="Digite a placa do veiculo">
+            <button id="send">Registrar</button>
+        </div>
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Veiculo</th>
+                        <th>Placa</th>
+                        <th>Horário</th>
+                        <th>Açoes</th>
+                    </tr>
+                </thead>
+                <tbody id="garage"></tbody>
+            </table>
+        </div>
+</body>
+<script src="./main.js"></script>
+</html>
